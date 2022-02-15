@@ -14,3 +14,8 @@
 .section__body {
     padding: 20px;
 }
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
