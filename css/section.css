@@ -12,6 +12,13 @@
     grid-gap: 20px;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+}
+
+@media(max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
 }
 
 .section__tittle {
